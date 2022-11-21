@@ -126,11 +126,11 @@ class Pedido {
 		this.btnConfirmar.addEventListener("click", () => {
 			this.enviarZap();
 		});
-		
+
 		this.btnCancelar.addEventListener("click", () => {
 			this.cancelarPedido();
 		});
-		
+
 		this.btnPedir.addEventListener("click", () => {
 			this.confirmarPedido();
 		});
